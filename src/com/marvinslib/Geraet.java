@@ -5,6 +5,7 @@ public class Geraet {
     private UUID SpielplatzID;
     private String Bezeichnung;
     private GeraeteStatus GeraeteStatus;
+    private String Beschreibung;
 
     public GeraeteStatus GetGeraeteStatus() {
         return GeraeteStatus;
@@ -28,5 +29,13 @@ public class Geraet {
 
     public void SetBezeichnung(String bezeichnung) {
         Bezeichnung = bezeichnung;
+    }
+
+    public String GetBeschreibung() {
+        return Beschreibung;
+    }
+
+    public void SetBeschreibung(String beschreibung) {
+        Beschreibung = beschreibung;
     }
 }
